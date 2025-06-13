@@ -17,7 +17,7 @@ namespace ControleEstoqueAPI.Data
                 .HasOne(m => m.Produto)
                 .WithMany()
                . HasForeignKey(modelBuilder => m.ProdutoId)
-                .onDelete(DeleteBehavior.Cascade);
+                .OnDelete(DeleteBehavior.Cascade);
         }
 
     }       

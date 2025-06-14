@@ -1,6 +1,6 @@
 ﻿namespace ControleEstoqueAPI.Models
 {
-    public class EstoqueVievModel
+    public class EstoqueViewModel
     {
         public int ProdutoId { get; set; }
         public string ProdutoNome { get; set; }

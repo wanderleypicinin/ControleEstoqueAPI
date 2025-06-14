@@ -7,9 +7,9 @@
 
         public string CodigoBarras {  get; set; }
         public string Descricao { get; set; }
-        public decimal precoCusto {  get; set; }
+        public decimal PrecoCusto {  get; set; }
 
-        public decimal PrecoVendas { get; set; }
+        public decimal PrecoVenda { get; set; }
 
         public DateTime? DataCadastro { get; set; } = DateTime.UtcNow;
 
